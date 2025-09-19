@@ -27,15 +27,21 @@
   top: 12%;
 }
 .text {
-  font-style: italic;
-  margin-bottom: 100px;
+  margin: 100px 0 100px 40px;
+  width: 500px;
+  text-align: center;
+  color: rgba(165, 144, 116, 0.879);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.618);
 }
 .btn {
   width: 400px;
   border: 2px solid black;
   border-radius: 40px;
+  border: none;
   background-color: rgba(0, 0, 0, 0.618);
   padding: 30px 30px;
   color: rgb(146, 129, 108);
   margin-left: 70px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.618);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.618);
 }

@@ -40,7 +40,6 @@
   top: 12%;
 }
 .text {
-  font-style: italic;
   color: var(--White, #2e220a);
 }
 .btn {
@@ -58,18 +57,20 @@
 
   flex-grow: 1;
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.618);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.618);
 }
 
 .textContainer {
   display: flex;
   text-align: center;
-
+  margin-top: auto;
   padding-left: 40px;
   width: 500px;
 }
 .text {
   font-weight: bold;
   font-size: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.618);
 }
 
 .form {
@@ -82,6 +83,7 @@
   flex-direction: column;
   gap: 8px;
   color: var(--White, #2e220a);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.618);
   font-size: 16px;
   margin-bottom: 40px;
 }
@@ -92,14 +94,14 @@
   background: var(--Level-1, #432f005b);
   border: none;
   border-radius: 20px;
-  color: #fff;
+  color: var(--White, #2e220a);
   padding-left: 32px;
   padding-right: 32px;
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.618);
 }
 
 .errorMessage {
-  color: white;
+  color: var(--White, #2e220a);
   font-size: 14px;
   margin-top: 4px;
   background-color: transparent;
