@@ -1,0 +1,167 @@
+.footer {
+  margin-bottom: 5px;
+  border: none;
+}
+
+.title {
+  font-weight: 700;
+
+  font-size: 60px;
+
+  line-height: 1.1;
+
+  margin-bottom: 20px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.block {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.heading {
+  color: var(--White, #2e220a);
+  font-size: 32px;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-weight: 600;
+  color: var(--White, #2e220a);
+  font-size: 26px;
+}
+
+.item,
+.itemRight {
+  background-color: rgba(146, 129, 108, 0.581);
+  border-radius: 10px;
+  padding: 36px;
+  width: 700px;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 42px;
+}
+
+.map,
+iframe {
+  border-radius: 16px;
+  width: 100%;
+  height: 300px;
+}
+
+@media (max-width: 1000px) {
+  .footer {
+    margin-bottom: 60px;
+  }
+  .title {
+    margin-bottom: 32px;
+  }
+
+  .contacts {
+    gap: 20px;
+  }
+
+  .block {
+    gap: 20px;
+  }
+
+  .item {
+    width: 470px;
+  }
+
+  .itemRight {
+    width: 470px;
+  }
+
+  .socials {
+    gap: 16px;
+  }
+
+  .mapIframe {
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    .title {
+      font-size: 56px;
+    }
+
+    .item {
+      width: 420px;
+    }
+
+    .itemRight {
+      width: 420px;
+    }
+
+    .text {
+      font-size: 150%;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    margin-bottom: 3.5rem;
+  }
+  .title {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .contacts {
+    gap: 0.75rem;
+  }
+
+  .block {
+    flex-direction: column;
+    gap: 0.75rem;
+    &:first-child .footer__item-right {
+      display: flex;
+      gap: 1.25rem;
+    }
+
+    .item {
+      padding: 1.5rem;
+      width: 100%;
+    }
+
+    .itemRight {
+      width: 100%;
+    }
+
+    .heading {
+      font-size: 1.125rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .socials {
+      gap: 0.75rem;
+    }
+
+    .text {
+      font-size: 1.75rem;
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  .footer {
+    .title {
+      font-size: 2.5rem;
+    }
+  }
+}
